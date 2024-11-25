@@ -1,0 +1,242 @@
+2024-11-25 15:15:23,020 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 15:15:23,021 - [33mPress CTRL+C to quit[0m
+2024-11-25 15:15:26,397 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET / HTTP/1.1" 200 -
+2024-11-25 15:15:26,491 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "[33mGET /static/images/logo/logo.png HTTP/1.1[0m" 404 -
+2024-11-25 15:15:26,528 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 15:15:26,541 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 15:15:26,545 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 15:15:26,547 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/icons/icon-calendar.png HTTP/1.1" 200 -
+2024-11-25 15:15:26,610 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/images/ThiseIntra2024.png HTTP/1.1" 200 -
+2024-11-25 15:15:26,614 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "[33mGET /static/images/IntraOld.png HTTP/1.1[0m" 404 -
+2024-11-25 15:15:26,639 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/icons/icon-user.png HTTP/1.1" 200 -
+2024-11-25 15:15:26,643 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/icons/icon-star.png HTTP/1.1" 200 -
+2024-11-25 15:15:26,646 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/icons/icon-help.png HTTP/1.1" 200 -
+2024-11-25 15:15:26,651 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/icons/icon-lock.png HTTP/1.1" 200 -
+2024-11-25 15:15:26,776 - 127.0.0.1 - - [25/Nov/2024 15:15:26] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 15:16:08,803 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 15:16:08,803 - [33mPress CTRL+C to quit[0m
+2024-11-25 15:16:09,677 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "GET / HTTP/1.1" 200 -
+2024-11-25 15:16:09,756 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[33mGET /static/images/logo/logo.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:09,776 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[33mGET /static/images/ThiseIntra2024.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:09,781 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 15:16:09,788 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[33mGET /static/images/IntraOld.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:09,794 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:09,814 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:09,815 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 15:16:09,816 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 15:16:09,836 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:09,840 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:09,843 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:09,906 - 127.0.0.1 - - [25/Nov/2024 15:16:09] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 15:16:10,414 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "GET / HTTP/1.1" 200 -
+2024-11-25 15:16:10,500 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/css/modal.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,505 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,508 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/css/template.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,514 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[33mGET /static/images/logo/logo.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:10,519 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,539 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[33mGET /static/images/ThiseIntra2024.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:10,543 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[33mGET /static/images/IntraOld.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:10,548 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,551 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,559 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,559 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,622 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 15:16:10,836 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "GET / HTTP/1.1" 200 -
+2024-11-25 15:16:10,900 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,905 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/css/template.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,917 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[33mGET /static/images/logo/logo.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:10,920 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,922 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/css/modal.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,940 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[33mGET /static/images/ThiseIntra2024.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:10,959 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[33mGET /static/images/IntraOld.png HTTP/1.1[0m" 404 -
+2024-11-25 15:16:10,963 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,966 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,971 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:10,975 - 127.0.0.1 - - [25/Nov/2024 15:16:10] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:11,034 - 127.0.0.1 - - [25/Nov/2024 15:16:11] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 15:16:56,948 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 15:16:56,948 - [33mPress CTRL+C to quit[0m
+2024-11-25 15:16:57,141 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "GET / HTTP/1.1" 200 -
+2024-11-25 15:16:57,291 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/css/modal.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,304 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,306 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/css/template.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,311 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,311 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "GET /static/images/logo/logo.png HTTP/1.1" 200 -
+2024-11-25 15:16:57,344 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,346 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "GET /static/images/ThiseIntra2024.png HTTP/1.1" 200 -
+2024-11-25 15:16:57,353 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,356 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "GET /static/images/IntraOld.png HTTP/1.1" 200 -
+2024-11-25 15:16:57,357 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,362 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:57,425 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 15:16:57,968 - 127.0.0.1 - - [25/Nov/2024 15:16:57] "GET / HTTP/1.1" 200 -
+2024-11-25 15:16:58,043 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,052 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/css/template.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,057 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/css/modal.css HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,063 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/images/logo/logo.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,064 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,105 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/images/ThiseIntra2024.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,109 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,113 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/images/IntraOld.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,118 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,122 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,126 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 15:16:58,192 - 127.0.0.1 - - [25/Nov/2024 15:16:58] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 15:17:02,186 - Action: logon - Username: test, IP: 127.0.0.1
+2024-11-25 15:17:02,186 - 127.0.0.1 - - [25/Nov/2024 15:17:02] "[32mPOST /log_action HTTP/1.1[0m" 302 -
+2024-11-25 15:19:37,045 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 15:19:37,045 - [33mPress CTRL+C to quit[0m
+2024-11-25 15:19:39,669 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET / HTTP/1.1" 200 -
+2024-11-25 15:19:39,812 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 15:19:39,830 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 15:19:39,834 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 15:19:39,836 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/icons/icon-calendar.png HTTP/1.1" 200 -
+2024-11-25 15:19:39,837 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/images/logo/logo.png HTTP/1.1" 200 -
+2024-11-25 15:19:39,890 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/images/ThiseIntra2024.png HTTP/1.1" 200 -
+2024-11-25 15:19:39,894 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/images/IntraOld.png HTTP/1.1" 200 -
+2024-11-25 15:19:39,917 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/icons/icon-user.png HTTP/1.1" 200 -
+2024-11-25 15:19:39,921 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/icons/icon-star.png HTTP/1.1" 200 -
+2024-11-25 15:19:39,925 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/icons/icon-help.png HTTP/1.1" 200 -
+2024-11-25 15:19:39,929 - 127.0.0.1 - - [25/Nov/2024 15:19:39] "GET /static/icons/icon-lock.png HTTP/1.1" 200 -
+2024-11-25 15:19:57,373 - Action: logon - Username: test, IP: 127.0.0.1
+2024-11-25 15:19:57,373 - 127.0.0.1 - - [25/Nov/2024 15:19:57] "[32mPOST /log_action HTTP/1.1[0m" 302 -
+2024-11-25 15:20:37,431 - Action: forgot_username - Username: test, IP: 127.0.0.1
+2024-11-25 15:20:37,431 - 127.0.0.1 - - [25/Nov/2024 15:20:37] "[32mPOST /log_action HTTP/1.1[0m" 302 -
+2024-11-25 15:20:39,757 - Action: forgot_password - Username: test, IP: 127.0.0.1
+2024-11-25 15:20:39,757 - 127.0.0.1 - - [25/Nov/2024 15:20:39] "[32mPOST /log_action HTTP/1.1[0m" 302 -
+2024-11-25 15:20:41,461 - Action: logon - Username: test, IP: 127.0.0.1
+2024-11-25 15:20:41,461 - 127.0.0.1 - - [25/Nov/2024 15:20:41] "[32mPOST /log_action HTTP/1.1[0m" 302 -
+2024-11-25 15:22:35,383 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 15:22:35,383 - [33mPress CTRL+C to quit[0m
+2024-11-25 15:22:36,642 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "GET / HTTP/1.1" 200 -
+2024-11-25 15:22:36,761 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 15:22:36,810 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 15:22:36,812 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 15:22:36,813 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/images/logo/logo.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,813 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,850 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/images/ThiseIntra2024.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,858 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/images/IntraOld.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,869 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,870 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,870 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,875 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 15:22:36,933 - 127.0.0.1 - - [25/Nov/2024 15:22:36] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 17:11:40,173 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 17:11:40,173 - [33mPress CTRL+C to quit[0m
+2024-11-25 17:11:40,219 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET / HTTP/1.1" 200 -
+2024-11-25 17:11:40,378 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 17:11:40,390 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 17:11:40,396 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 17:11:40,397 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/images/logo/logo.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,398 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/icons/icon-calendar.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,476 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/images/ThiseIntra2024.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,480 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/images/IntraOld.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,489 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/icons/icon-help.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,492 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/icons/icon-user.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,497 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/icons/icon-lock.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,497 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/icons/icon-star.png HTTP/1.1" 200 -
+2024-11-25 17:11:40,606 - 127.0.0.1 - - [25/Nov/2024 17:11:40] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 17:11:50,702 - Action: logon - Username: Unknown, IP: 127.0.0.1
+2024-11-25 17:11:50,703 - 127.0.0.1 - - [25/Nov/2024 17:11:50] "[32mPOST /log_action HTTP/1.1[0m" 302 -
+2024-11-25 17:19:00,746 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 17:19:00,746 - [33mPress CTRL+C to quit[0m
+2024-11-25 17:19:05,940 - 127.0.0.1 - - [25/Nov/2024 17:19:05] "GET / HTTP/1.1" 200 -
+2024-11-25 17:19:06,023 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 17:19:06,034 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 17:19:06,038 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 17:19:06,038 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/images/logo/logo.png HTTP/1.1" 200 -
+2024-11-25 17:19:06,039 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/icons/icon-calendar.png HTTP/1.1" 200 -
+2024-11-25 17:19:06,194 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/images/ThiseIntra2024.png HTTP/1.1" 200 -
+2024-11-25 17:19:06,212 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/icons/icon-user.png HTTP/1.1" 200 -
+2024-11-25 17:19:06,216 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/images/IntraOld.png HTTP/1.1" 200 -
+2024-11-25 17:19:06,220 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/icons/icon-lock.png HTTP/1.1" 200 -
+2024-11-25 17:19:06,223 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/icons/icon-star.png HTTP/1.1" 200 -
+2024-11-25 17:19:06,229 - 127.0.0.1 - - [25/Nov/2024 17:19:06] "GET /static/icons/icon-help.png HTTP/1.1" 200 -
+2024-11-25 17:21:21,853 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 17:21:21,853 - [33mPress CTRL+C to quit[0m
+2024-11-25 17:21:28,869 - 127.0.0.1 - - [25/Nov/2024 17:21:28] "GET / HTTP/1.1" 200 -
+2024-11-25 17:21:28,962 - 127.0.0.1 - - [25/Nov/2024 17:21:28] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 17:21:28,967 - 127.0.0.1 - - [25/Nov/2024 17:21:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 17:21:28,971 - 127.0.0.1 - - [25/Nov/2024 17:21:28] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 17:21:28,975 - 127.0.0.1 - - [25/Nov/2024 17:21:28] "[36mGET /static/images/logo/logo.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:28,979 - 127.0.0.1 - - [25/Nov/2024 17:21:28] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:29,065 - 127.0.0.1 - - [25/Nov/2024 17:21:29] "[36mGET /static/images/ThiseIntra2024.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:29,080 - 127.0.0.1 - - [25/Nov/2024 17:21:29] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:29,085 - 127.0.0.1 - - [25/Nov/2024 17:21:29] "[36mGET /static/images/IntraOld.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:29,085 - 127.0.0.1 - - [25/Nov/2024 17:21:29] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:29,089 - 127.0.0.1 - - [25/Nov/2024 17:21:29] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:29,091 - 127.0.0.1 - - [25/Nov/2024 17:21:29] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 17:21:29,131 - 127.0.0.1 - - [25/Nov/2024 17:21:29] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
+2024-11-25 17:21:50,900 - Action: logon - Username: test, IP: 127.0.0.1
+2024-11-25 17:21:50,900 - 127.0.0.1 - - [25/Nov/2024 17:21:50] "[32mPOST /log_action HTTP/1.1[0m" 302 -
+2024-11-25 17:22:15,663 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET / HTTP/1.1" 200 -
+2024-11-25 17:22:15,773 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 17:22:15,785 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 17:22:15,786 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 17:22:15,787 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/images/logo/logo.png HTTP/1.1" 200 -
+2024-11-25 17:22:15,787 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/icons/icon-calendar.png HTTP/1.1" 200 -
+2024-11-25 17:22:15,951 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/images/ThiseIntra2024.png HTTP/1.1" 200 -
+2024-11-25 17:22:15,970 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/images/IntraOld.png HTTP/1.1" 200 -
+2024-11-25 17:22:15,971 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/icons/icon-user.png HTTP/1.1" 200 -
+2024-11-25 17:22:15,973 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/icons/icon-lock.png HTTP/1.1" 200 -
+2024-11-25 17:22:15,978 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/icons/icon-star.png HTTP/1.1" 200 -
+2024-11-25 17:22:15,983 - 127.0.0.1 - - [25/Nov/2024 17:22:15] "GET /static/icons/icon-help.png HTTP/1.1" 200 -
+2024-11-25 17:24:31,616 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 17:24:31,616 - [33mPress CTRL+C to quit[0m
+2024-11-25 17:24:34,974 - 127.0.0.1 - - [25/Nov/2024 17:24:34] "GET / HTTP/1.1" 200 -
+2024-11-25 17:24:35,069 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 17:24:35,073 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 17:24:35,078 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 17:24:35,082 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/images/logo/logo.png HTTP/1.1" 200 -
+2024-11-25 17:24:35,087 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/icons/icon-calendar.png HTTP/1.1" 200 -
+2024-11-25 17:24:35,203 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/images/ThiseIntra2024.png HTTP/1.1" 200 -
+2024-11-25 17:24:35,205 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/images/IntraOld.png HTTP/1.1" 200 -
+2024-11-25 17:24:35,233 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/icons/icon-user.png HTTP/1.1" 200 -
+2024-11-25 17:24:35,243 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/icons/icon-help.png HTTP/1.1" 200 -
+2024-11-25 17:24:35,244 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/icons/icon-lock.png HTTP/1.1" 200 -
+2024-11-25 17:24:35,245 - 127.0.0.1 - - [25/Nov/2024 17:24:35] "GET /static/icons/icon-star.png HTTP/1.1" 200 -
+2024-11-25 17:26:22,072 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.1.252:5000
+2024-11-25 17:26:22,072 - [33mPress CTRL+C to quit[0m
+2024-11-25 17:26:25,949 - 127.0.0.1 - - [25/Nov/2024 17:26:25] "GET / HTTP/1.1" 200 -
+2024-11-25 17:26:26,060 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-25 17:26:26,073 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "GET /static/css/modal.css HTTP/1.1" 200 -
+2024-11-25 17:26:26,077 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "GET /static/css/template.css HTTP/1.1" 200 -
+2024-11-25 17:26:26,078 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/icons/icon-calendar.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,080 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/images/logo/logo.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,145 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/images/ThiseIntra2024.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,148 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/icons/icon-user.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,152 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/images/IntraOld.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,157 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/icons/icon-lock.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,161 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/icons/icon-star.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,164 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "[36mGET /static/icons/icon-help.png HTTP/1.1[0m" 304 -
+2024-11-25 17:26:26,244 - 127.0.0.1 - - [25/Nov/2024 17:26:26] "GET /static/icons/favicon.ico HTTP/1.1" 200 -
