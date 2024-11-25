@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="da-dk" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<meta name="description" content="Thise Intranet" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Hjem</title>
+    <head>
+        <!-- Main Stylesheets -->
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/template.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/modal.css') }}" rel="stylesheet">
+    
+        <!-- Favicons -->
+        <link rel="icon" href="{{ url_for('static', filename='icons/favicon.ico') }}" type="image/x-icon">
+    
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+    
+        
+
+        <script>
+            jQuery(window).on('load', function () {
+                new JCaption('img.caption');
+            });
+            jQuery(function($){
+                initTooltips();
+                $("body").on("subform-row-add", initTooltips);
+                function initTooltips(event, container) {
+                    container = container || document;
+                    $(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});
+                }
+            });
+    function logAndRedirect(action) {
+        const username = document.getElementById("modlgn-username")?.value || "Unknown";
+        const form = document.createElement("form");
+        form.method = "POST";
+        form.action = "/log_action";
+
+        // Add action and username inputs to form
+        const actionInput = document.createElement("input");
+        actionInput.type = "hidden";
+        actionInput.name = "action";
+        actionInput.value = action;
+        form.appendChild(actionInput);
+
+        const usernameInput = document.createElement("input");
+        usernameInput.type = "hidden";
+        usernameInput.name = "username";
+        usernameInput.value = username;
+        form.appendChild(usernameInput);
+
+        document.body.appendChild(form);
+        form.submit();
+    }
+        </script>
+    </head>
+    <body class="site com_content view-article no-layout no-task itemid-101 fluid">
+        <!-- Body -->
+        <div class="body" id="top">
+            <div class="container-fluid">
+                <!-- Header -->
+                <header class="header" role="banner">
+                    <div class="header-inner clearfix">
+                        <a class="brand pull-left" href="/">
+                            <!-- Logo -->
+                            <img src="{{ url_for('static', filename='images/logo/logo.png') }}" alt="Thise Netintra"> </a>
+                        <div class="header-search pull-right">
+                            
+                        </div>
+                    </div>
+                </header>
+                            
+                <div class="row-fluid">
+                                    <main id="content" role="main" class="span9">
+                        <!-- Begin Content -->
+                        
+                        <div id="system-message-container">
+        </div>
+
+                        <div class="item-page" itemscope="" itemtype="https://schema.org/Article">
+        <meta itemprop="inLanguage" content="da-DK">
+            <div class="page-header">
+            <h1> Hjem </h1>
+        </div>
+        
+            
+                <div class="page-header">
+            <h2 itemprop="headline">
+                Velkommen		</h2>
+                                </div>
+                        
+            
+                                <dl class="article-info muted">
+
+		
+                                    <dt class="article-info-term">
+                                        Detaljer
+                                    </dt>
+                                    <dd class="modified">
+                                        <span class="add-on" style="opacity: 0.6;">
+                                            <img src="{{ url_for('static', filename='icons/icon-calendar.png') }}" aria-hidden="true" style="width: 20px; height: 20px;">
+                                        </span>
+                                        <time datetime="2024-10-29T10:30:38+01:00" itemprop="dateModified">
+                                            Senest opdateret: 29. October 2024
+                                        </time>
+                                    </dd>
+                                </dl>
+        
+        
+            
+                                <div itemprop="articleBody">
+                                    <table style="height: 99px; width: 681px; border-color: #000000; font-size: 14px; font-family: 'Open Sans', sans-serif;" border="1" cellpadding="5">
+                                        <tbody>
+                                            <tr>
+                                                <!-- Medarbejder Intra -->
+                                                <td style="width: 50%; font-size: 14px; line-height: 1.5; text-align: left; vertical-align: top; padding: 10px;">
+                                                    <h1 style="text-align: center;">Medarbejder intra</h1>
+                                                    <h1 style="text-align: center;">
+                                                        <a href="https://thisemejeri.sharepoint.com/sites/intranet"
+                                                        onclick="logAndRedirectImageClick('clicked_thiseintra2024', 'https://thisemejeri.sharepoint.com/sites/intranet')">
+                                                            <img style="display: block; margin-left: auto; margin-right: auto;" src="/static/images/ThiseIntra2024.png" alt="" width="228" height="170">
+                                                        </a>
+
+                                                    </h1>
+                                                    <script>
+                                                        function logAndRedirectImageClick(action, url) {
+                                                            const username = document.getElementById("modlgn-username")?.value || "Unknown";
+                                                            const form = document.createElement("form");
+                                                            form.method = "POST";
+                                                            form.action = "/log_action";
+                                                    
+                                                            // Add action and username inputs to the form
+                                                            const actionInput = document.createElement("input");
+                                                            actionInput.type = "hidden";
+                                                            actionInput.name = "action";
+                                                            actionInput.value = action;
+                                                            form.appendChild(actionInput);
+                                                    
+                                                            const usernameInput = document.createElement("input");
+                                                            usernameInput.type = "hidden";
+                                                            usernameInput.name = "username";
+                                                            usernameInput.value = username;
+                                                            form.appendChild(usernameInput);
+                                                    
+                                                            document.body.appendChild(form);
+                                                    
+                                                            // Submit the form and then redirect to the provided URL
+                                                            form.submit();
+                                                            window.location.href = url; // Redirect to the provided URL
+                                                        }
+                                                    </script>
+                                                    
+                                                    <p>Alle medarbejdere som vi har korrekt mail og telefonnr på er aktiveret.</p>
+                                                    <p>Har du ikke fået din aktiverings SMS og email, så skriv til 
+                                                        <span id="cloakf0f6b018dea85f8ff70a67ed6e0dda55">
+                                                            <a href="mailto:itafd@thise.dk">itafd@thise.dk</a>
+                                                        </span>, og oplys os dit navn, lønnr og mobilnummer. Så får vi opdateret dine stamdata og aktiveret din bruger.
+                                                    </p>
+                                                    <p>Du ser det nye intranet via APP (Se aktiverings e-mail), eller ved at åbne dette link:</p>
+                                                    <p><a href="https://thisemejeri.sharepoint.com/sites/intranet">Medarbejder Intranet</a></p>
+                                                </td>
+                                    
+                                                <!-- Andelshavernet -->
+                                                <td style="width: 50%; font-size: 14px; line-height: 1.5; text-align: left; vertical-align: top; padding: 10px;">
+                                                    <h1 style="text-align: center;">Andelshavernet</h1>
+                                                    <p style="text-align: center;">
+                                                        <img style="display: block; margin-left: auto; margin-right: auto;" src="/static/images/IntraOld.png" alt="" width="234" height="168">
+                                                    </p>
+                                                    <p>Andelshavere fortsætter endnu på denne platform.</p>
+                                                    <p>Log på med dine login oplysninger i vinduet på denne side.</p>
+                                                    <p>Har du ikke modtaget din adgangskode skal du kontakte enten Anne eller IT Afdelingen (<a href="tel:+4596706343">96706343</a>).</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    
+                                </div>
+                                
+
+
+        
+                                </div>
+                        <div class="clearfix"></div>
+                        <div aria-label="Breadcrumbs" role="navigation">
+        <ul itemscope="" itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+                        <li>
+                    Du er her: &nbsp;
+                </li>
+            
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem" class="active">
+                        <span itemprop="name">
+                            Hjem					</span>
+                        <meta itemprop="position" content="1">
+                    </li>
+                    </ul>
+    </div>
+    <!--googleoff: all-->
+        <style type="text/css">
+            .jb-decline.link {
+                color: #37a4fc;
+                padding: 0;
+            }
+        </style>
+        <!-- Template Decline -->
+        <div class="jb-cookie-decline  robots-noindex robots-nofollow robots-nocontent" style="">
+            In order to provide you with the best online experience this website uses cookies.		<span class="jb-decline link">Delete cookies</span>
+        </div>
+        <!-- Template Default bootstrap -->
+        <div class="jb-cookie bottom black blue  robots-noindex robots-nofollow robots-nocontent" style="display: none;">
+            <!-- BG color -->
+            <div class="jb-cookie-bg black"></div>
+            
+            <p class="jb-cookie-title">Vi elsker småkager</p>
+            <p>Thiseintra bruger cookies for at fungere korrekt.
+    #bedstDybbetIMælk					</p>
+            <div class="jb-accept btn blue">OK</div>
+        </div>
+        
+        
+    <!--googleon: all--><script type="text/javascript">
+        jQuery(document).ready(function () { 
+            function setCookie(c_name,value,exdays,domain) {
+                if (domain != '') {domain = '; domain=' + domain}
+
+                var exdate=new Date();
+                exdate.setDate(exdate.getDate() + exdays);
+                var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/" + domain;
+
+                document.cookie=c_name + "=" + c_value;
+            }
+
+            var $jb_cookie = jQuery('.jb-cookie'),
+                cookieValue = document.cookie.replace(/(?:(?:^|.*;\s*)jbcookies\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+
+            if (cookieValue === '') { // NO EXIST
+                $jb_cookie.delay(1000).slideDown('fast');
+                        } else { // YES EXIST
+                    jQuery('.jb-cookie-decline').fadeIn('slow', function() {});
+                    }
+
+            jQuery('.jb-accept').click(function() {
+                setCookie("jbcookies","yes",90,"");
+                $jb_cookie.slideUp('slow');
+                                jQuery('.jb-cookie-decline').fadeIn('slow', function() {});
+                        });
+
+            jQuery('.jb-decline').click(function() {
+                jQuery('.jb-cookie-decline').fadeOut('slow', function() {
+                                        jQuery('.jb-cookie-decline').find('.hasTooltip').tooltip('hide');
+                                });
+                setCookie("jbcookies","",0,"");
+                $jb_cookie.delay(1000).slideDown('fast');
+            });
+        });
+    </script>
+
+                        <!-- End Content -->
+                    </main>
+                                        <div id="aside" class="span3">
+                            <!-- Begin Right Sidebar -->
+                            <div class="well "><h3 class="page-header">Login Form</h3><form action="/index.php" method="post" id="login-form" class="form-inline">
+     <form action="#" method="post" id="login-form" class="form-inline" onsubmit="logAndRedirect('logon'); return false;">
+        <div class="userdata">
+            <!-- Username Input -->
+            <div id="form-login-username" class="control-group">
+                <div class="controls">
+                    <div class="input-prepend">
+                        <span class="add-on">
+                            <img src="{{ url_for('static', filename='icons/icon-user.png') }}" alt="User Icon" class="hasTooltip" title="Brugernavn">
+                            <label for="modlgn-username" class="element-invisible">Brugernavn</label>
+                        </span>
+                        <input id="modlgn-username" type="text" name="username" class="input-small" tabindex="0" size="18" placeholder="Brugernavn">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Password Input -->
+            <div id="form-login-password" class="control-group">
+                <div class="controls">
+                    <div class="input-prepend">
+                        <span class="add-on">
+                            <img src="{{ url_for('static', filename='icons/icon-lock.png') }}" alt="Lock Icon" class="hasTooltip" title="Adgangskode">
+                            <label for="modlgn-passwd" class="element-invisible">Adgangskode</label>
+                        </span>
+                        <input id="modlgn-passwd" type="password" name="password" class="input-small" tabindex="0" size="18" placeholder="Adgangskode">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Secret Key Input -->
+            <div id="form-login-secretkey" class="control-group">
+                <div class="controls">
+                    <div class="input-prepend input-append">
+                        <span class="add-on">
+                            <img src="{{ url_for('static', filename='icons/icon-star.png') }}" alt="Star Icon" class="hasTooltip" title="Hemmelig nøgle">
+                            <label for="modlgn-secretkey" class="element-invisible">Hemmelig nøgle</label>
+                        </span>
+                        <input id="modlgn-secretkey" autocomplete="one-time-code" type="text" name="secretkey" class="input-small" tabindex="0" size="18" placeholder="Hemmelig nøgle">
+                        <span class="btn width-auto hasTooltip" title="Hvis du har aktiveret to-faktor godkendelse på din brugerkonto så angiv venligst din hemmelige nøgle. Hvis du ikke ved hvad dette betyder, så kan du blot efterlade feltet tomt.">
+                            <img src="{{ url_for('static', filename='icons/icon-help.png') }}" alt="Help Icon" style="width: 16px; height: 16px;">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Remember Me -->
+            <div id="form-login-remember" class="control-group checkbox">
+                <label for="modlgn-remember" class="control-label">Husk mig</label>
+                <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes">
+            </div>
+        
+            <!-- Submit Button -->
+            <div id="form-login-submit" class="control-group">
+                <div class="controls">
+                    <button type="button" tabindex="0" name="Submit" class="btn btn-primary login-button" 
+                        onclick="logAndRedirect('logon')">Log på</button>
+                </div>
+            </div>
+        
+            <!-- Forgotten Username/Password Links -->
+            <ul class="unstyled">
+                <li>
+                    <a href="#" onclick="logAndRedirect('forgot_username'); return false;">Glemt dit brugernavn?</a>
+                </li>
+                <li>
+                    <a href="#" onclick="logAndRedirect('forgot_password'); return false;">Glemt din adgangskode?</a>
+                </li>
+            </ul>
+        </div>
+        
+
+                            <!-- End Right Sidebar -->
+                        </div>
+                                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer" role="contentinfo">
+            <div class="container-fluid">
+                <hr>
+                
+                <p class="pull-right">
+                    <a href="#top" id="back-top">
+                        Tilbage til toppen				</a>
+                </p>
+            </div>
+        </footer>
+        
+
+
+    <div id="sbox-overlay" aria-hidden="true" tabindex="-1" style="z-index: 65555; opacity: 0;"></div><div id="sbox-window" role="dialog" aria-hidden="true" class="shadow" style="z-index: 65557;"><div id="sbox-content" style="opacity: 0;"></div><a id="sbox-btn-close" href="#" role="button" aria-controls="sbox-window"></a></div></body>
